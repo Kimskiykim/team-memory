@@ -12,8 +12,8 @@
 ```sh
 gh repo create OWNER/team-memory --private --source . --remote origin
 git push -u origin main
-git push -u origin codex/team-memory-v1
-gh pr create --base main --head codex/team-memory-v1 --draft --title 'Team Memory v1' --body-file docs/initial-pr.md
+git push -u origin feature/team-memory-v1
+gh pr create --base main --head feature/team-memory-v1 --draft --title 'Team Memory v1' --body-file docs/initial-pr.md
 ```
 
 `main` в локальном bootstrap содержит только пустой начальный коммит. Единственное

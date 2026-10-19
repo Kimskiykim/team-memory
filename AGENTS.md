@@ -25,4 +25,4 @@ Markdown; для строго read-only используй `--no-cache`. Не и
 прямой/force push основной ветки запрещён. Подробности:
 [git-workflow](skills/team-memory/references/git-workflow.md).
 Первоначальная реализация инструментария разрешена запросом пользователя «реализуй»;
-она сохраняется в `codex/team-memory-v1` и не считается опубликованной до merge.
+она сохраняется в `feature/team-memory-v1` и не считается опубликованной до merge.

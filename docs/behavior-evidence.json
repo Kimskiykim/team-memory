@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "harness": "Codex independent subagent; isolated fixture copy",
+  "harness": "Independent agent; isolated fixture copy",
   "fixture": "tests/fixtures/demo",
   "inputs": [
     "tests/scenarios/daily.txt",
