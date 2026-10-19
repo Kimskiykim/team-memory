@@ -26,10 +26,10 @@ python3 scripts/validate.py --root tests/fixtures/demo
 ## Skill и harness
 
 - Валидатор skill-creator: `Skill is valid!`.
-- Установленный `codex-cli 0.146.0`, отдельный запуск `codex exec --ephemeral --sandbox
-  read-only --ignore-user-config`: skill обнаружен по метаданным; прочитан канонический
-  `skills/team-memory/SKILL.md`, правильно названы три references.
-- Доставка в Codex через относительную ссылку `.agents/skills/team-memory`; копий skill нет.
+- В отдельной сессии доступного агентского CLI в режиме чтения skill обнаружен
+  по метаданным; прочитан канонический `skills/team-memory/SKILL.md`, правильно
+  названы три references. Это проверка одного harness, не всех совместимых инструментов.
+- Подключение через относительную ссылку `.agents/skills/team-memory`; копий skill нет.
 - GigaCode отсутствует и не проверен; неизвестные CLI-флаги не предлагаются.
 
 ## Поведенческий baseline
