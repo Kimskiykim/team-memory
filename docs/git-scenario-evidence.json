@@ -1,0 +1,136 @@
+[
+  {
+    "scenario": "compatible",
+    "initial_base": "fbaa811866c7e97b2852bb688885fdb1a6435839",
+    "last_reconciled_base": "0201861d43412a76a0ddc02f7f15ff2e519a7715",
+    "latest_observed_base": "0201861d43412a76a0ddc02f7f15ff2e519a7715",
+    "agent_tip": "b5e31bfe90606b9b1c8577cd4c22fa37322d98d9",
+    "branch": "memory/compatible",
+    "attempts": [
+      {
+        "number": 1,
+        "reconciled_base": "0201861d43412a76a0ddc02f7f15ff2e519a7715",
+        "merge_returncode": 0,
+        "post_validation_base": "0201861d43412a76a0ddc02f7f15ff2e519a7715",
+        "stable": true
+      }
+    ],
+    "draft_required": false,
+    "work_branch_pushed": true,
+    "pr_opened": false,
+    "human_merge_of_agent_branch": false,
+    "summary": "Совместимые обновления Атласа и Бореалиса сохранены; разные задачи и оба источника сохранены.",
+    "questions": "Нет",
+    "remote_refs": "0201861d43412a76a0ddc02f7f15ff2e519a7715 refs/heads/main\nb5e31bfe90606b9b1c8577cd4c22fa37322d98d9 refs/heads/memory/compatible\n"
+  },
+  {
+    "scenario": "unpublished-duplicate",
+    "initial_base": "83e1f84f3f3428386a52b37fb1e5e0fa1ceda178",
+    "last_reconciled_base": "c699422daee3b9317527e287ef5d8b4fb86377cb",
+    "latest_observed_base": "c699422daee3b9317527e287ef5d8b4fb86377cb",
+    "agent_tip": "6e228478c4ee1d6d5a27dcbaa4e7d68f9d216d5a",
+    "branch": "memory/unpublished-duplicate",
+    "attempts": [
+      {
+        "number": 1,
+        "reconciled_base": "c699422daee3b9317527e287ef5d8b4fb86377cb",
+        "merge_returncode": 0,
+        "post_validation_base": "c699422daee3b9317527e287ef5d8b4fb86377cb",
+        "stable": true
+      }
+    ],
+    "draft_required": false,
+    "work_branch_pushed": true,
+    "pr_opened": false,
+    "human_merge_of_agent_branch": false,
+    "summary": "Сохранён опубликованный ID knowledge-ade3ad2a-bf8f-42d0-ae5a-975c98031911; неопубликованный knowledge-00be0c77-940b-435e-9a6d-2a4a57c5af9b удалён без redirect; ссылка рабочего источника перенесена на каноническую запись, уникальное дополнение сохранено.",
+    "questions": "Нет",
+    "remote_refs": "c699422daee3b9317527e287ef5d8b4fb86377cb refs/heads/main\n6e228478c4ee1d6d5a27dcbaa4e7d68f9d216d5a refs/heads/memory/unpublished-duplicate\n"
+  },
+  {
+    "scenario": "assignee-conflict",
+    "initial_base": "0cf5b0b6b1afc78c3cf5c8c4c3f7071cf2f9456b",
+    "last_reconciled_base": "20bc4b25a22ee40167c0b2e320dcf5d4f827b6eb",
+    "latest_observed_base": "20bc4b25a22ee40167c0b2e320dcf5d4f827b6eb",
+    "agent_tip": "0e03c238c470e95770c5a50e79e9ebc3ebd70343",
+    "branch": "memory/assignee-conflict",
+    "attempts": [
+      {
+        "number": 1,
+        "reconciled_base": "20bc4b25a22ee40167c0b2e320dcf5d4f827b6eb",
+        "merge_returncode": 1,
+        "post_validation_base": "20bc4b25a22ee40167c0b2e320dcf5d4f827b6eb",
+        "stable": true
+      }
+    ],
+    "draft_required": true,
+    "work_branch_pushed": true,
+    "pr_opened": false,
+    "human_merge_of_agent_branch": false,
+    "summary": "Обе противоречащие версии назначения сохранены с отдельными источниками; assignee не выбран, статус todo.",
+    "questions": "Кого назначить ответственным за Бореалис: alex-dev или alex-ops?",
+    "remote_refs": "20bc4b25a22ee40167c0b2e320dcf5d4f827b6eb refs/heads/main\n0e03c238c470e95770c5a50e79e9ebc3ebd70343 refs/heads/memory/assignee-conflict\n"
+  },
+  {
+    "scenario": "three-base-shifts",
+    "initial_base": "654b3c14ea98c37c9b40aaa0b4ecce828b3631bd",
+    "last_reconciled_base": "82587505645b467b80988fe746027ebf6036ef1a",
+    "latest_observed_base": "46361a408b060a51c5a0faef92b58358317d5c23",
+    "agent_tip": "4f4164ef06f9220846b551c5dcc058115aa6782d",
+    "branch": "memory/three-base-shifts",
+    "attempts": [
+      {
+        "number": 1,
+        "reconciled_base": "654b3c14ea98c37c9b40aaa0b4ecce828b3631bd",
+        "merge_returncode": 0,
+        "post_validation_base": "87d07e923948ca9ee73aac6cd66af8fcfdb82bbf",
+        "stable": false
+      },
+      {
+        "number": 2,
+        "reconciled_base": "87d07e923948ca9ee73aac6cd66af8fcfdb82bbf",
+        "merge_returncode": 0,
+        "post_validation_base": "82587505645b467b80988fe746027ebf6036ef1a",
+        "stable": false
+      },
+      {
+        "number": 3,
+        "reconciled_base": "82587505645b467b80988fe746027ebf6036ef1a",
+        "merge_returncode": 0,
+        "post_validation_base": "46361a408b060a51c5a0faef92b58358317d5c23",
+        "stable": false
+      }
+    ],
+    "draft_required": true,
+    "work_branch_pushed": true,
+    "pr_opened": false,
+    "human_merge_of_agent_branch": false,
+    "summary": "Сверка остановлена после ровно трёх попыток. Рабочее изменение сохранено, base shift 1 и 2 интегрированы; shift 3 замечен, но не интегрирован.",
+    "questions": "Base изменился после каждой проверки. Требуется новый запрос на сверку; текущая ветка не готова к merge.",
+    "remote_refs": "46361a408b060a51c5a0faef92b58358317d5c23 refs/heads/main\n4f4164ef06f9220846b551c5dcc058115aa6782d refs/heads/memory/three-base-shifts\n"
+  },
+  {
+    "scenario": "published-duplicate",
+    "initial_base": "c6c41b7d8504f84cce025deed173eda9084d1884",
+    "last_reconciled_base": "c6c41b7d8504f84cce025deed173eda9084d1884",
+    "latest_observed_base": "c6c41b7d8504f84cce025deed173eda9084d1884",
+    "agent_tip": "78abba50b2613ada51696649cbaf98b045699f3b",
+    "branch": "memory/published-duplicate",
+    "attempts": [
+      {
+        "number": 1,
+        "reconciled_base": "c6c41b7d8504f84cce025deed173eda9084d1884",
+        "merge_returncode": 0,
+        "post_validation_base": "c6c41b7d8504f84cce025deed173eda9084d1884",
+        "stable": true
+      }
+    ],
+    "draft_required": false,
+    "work_branch_pushed": true,
+    "pr_opened": false,
+    "human_merge_of_agent_branch": false,
+    "summary": "Опубликованный ID knowledge-918d5fef-eb77-4d92-9289-a8e5b2d62a2a сохранён; старый ID knowledge-88183c22-320e-4a48-8308-257335bd4962 и путь wiki/relay-repeat-policy.md оставлены прямым redirect. Уникальное содержание, источники и активные ссылки перенесены.",
+    "questions": "Нет",
+    "remote_refs": "c6c41b7d8504f84cce025deed173eda9084d1884 refs/heads/main\n78abba50b2613ada51696649cbaf98b045699f3b refs/heads/memory/published-duplicate\n"
+  }
+]

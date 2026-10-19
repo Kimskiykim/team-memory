@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-19",
+  "harness": "Codex independent subagent; isolated fixture copy",
+  "fixture": "tests/fixtures/demo",
+  "inputs": [
+    "tests/scenarios/daily.txt",
+    "tests/scenarios/daily-correction.txt"
+  ],
+  "changes": {
+    "phase1_created": [
+      "tasks/relay-token-check.md",
+      "sources/meetings/daily-2026-10-19.md"
+    ],
+    "phase1_updated": [
+      "tasks/borealis-relay.md",
+      "tasks/atlas-relay.md",
+      "tasks/access.md",
+      "wiki/how-to/relay-token.md"
+    ],
+    "phase3_created": [],
+    "phase3_updated": [
+      "tasks/relay-token-check.md",
+      "tasks/atlas-relay.md",
+      "wiki/how-to/relay-token.md",
+      "sources/meetings/daily-2026-10-19.md"
+    ]
+  },
+  "repeat_identical": true,
+  "readonly_identical": true,
+  "raw_sources": {
+    "daily.txt": {
+      "sha256": "3a48f44c480861a5d0849130d894a9e6cb3e4e4448e9a576001ee31a6273f5c0",
+      "exact_bytes_in_source": true
+    },
+    "daily-correction.txt": {
+      "sha256": "a253dc471cda083ec9d841f362ff1df53fad72e3d793dafd333a5b87c7fa1bfa",
+      "exact_bytes_in_source": true
+    }
+  },
+  "open_task_count": 3,
+  "general_knowledge_count": 3,
+  "final_validation": "Valid: 15 records\n\nexit=0",
+  "publication": "local branch only, no remote",
+  "limits": "Synthetic single run. Concurrent red unit-suite observation superseded by final suite in verification.md."
+}
